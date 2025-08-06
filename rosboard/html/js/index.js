@@ -15,6 +15,7 @@ importJsOnce("js/viewers/DiagnosticViewer.js");
 importJsOnce("js/viewers/TimeSeriesPlotViewer.js");
 importJsOnce("js/viewers/PointCloud2Viewer.js");
 importJsOnce("js/viewers/RTSPViewer.js");
+importJsOnce("js/viewers/TerminalViewer.js")
 
 // GenericViewer must be last
 importJsOnce("js/viewers/GenericViewer.js");
