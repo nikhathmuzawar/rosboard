@@ -67,7 +67,7 @@ class RTSPViewer extends Viewer {
 
     const ip = window.location.hostname;
     console.log('[RTSPViewer] Detected device IP/hostname:', ip);
-    const response = await fetch(`http://${ip}:8000/offer`, {
+    const response = await fetch(`http://${ip}:8080/offer`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
